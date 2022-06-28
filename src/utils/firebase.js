@@ -3,15 +3,12 @@ import {
   getAuth,
   GoogleAuthProvider,
   signInWithPopup,
-  // signInWithRedirect,
+  // signInWithRedirect, // GET REDIRECT RESULTS ON MOUNT RESULTS CAN BE NULL
 } from 'firebase/auth';
 import {
-  // GET DOCUMENT
-  doc,
-  // GET DOCUMENT'S DATA
-  getDoc,
+  doc, // GET DOCUMENT
+  getDoc, // GET DOCUMENT'S DATA
   getFirestore,
-  // SET DOCUMENT'S DATA
   setDoc,
 } from 'firebase/firestore';
 
